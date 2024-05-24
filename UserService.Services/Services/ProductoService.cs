@@ -2,9 +2,8 @@
 using UserService.Core.Dtos;
 using UserService.Core.Entities;
 using UserService.Repository.Repositories;
-using UserService.Services.Services;
 
-namespace UserService.Core.Services;
+namespace UserService.Services.Services;
 
 public class ProductoService : IProductoService
 {
@@ -32,5 +31,11 @@ public class ProductoService : IProductoService
     {
         var result = await _unitOfWork.ProductoRepository.GetAllAsync();
         return _mapper.Map<IEnumerable<ProductoDTO>>(result);
+    }
+
+    public async Task<IEnumerable<ProductoDTO>> GetAllV2Async()
+    {
+        var result = await _unitOfWork.ProductoRepository.GetAllAsync();
+        return _mapper.Map<IEnumerable<ProductoDTO>>(result.Where(x => x.Stock > 15));
     }
 }

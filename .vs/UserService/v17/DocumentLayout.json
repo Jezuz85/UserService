@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Microservice\\User_Service\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FC3278F0-09EA-4BB6-8319-62EE939E0EE6}|UserService.Api\\UserService.Api.csproj|c:\\users\\user\\desktop\\microservice\\user_service\\userservice.api\\map\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC3278F0-09EA-4BB6-8319-62EE939E0EE6}|UserService.Api\\UserService.Api.csproj|solutionrelative:userservice.api\\map\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{847DB2FB-A4F8-4BD3-94FF-E7F114D6560E}|UserService.Services\\UserService.Services.csproj|c:\\users\\user\\desktop\\microservice\\user_service\\userservice.services\\services\\productoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{847DB2FB-A4F8-4BD3-94FF-E7F114D6560E}|UserService.Services\\UserService.Services.csproj|solutionrelative:userservice.services\\services\\productoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA46A121-9257-4D5D-B99F-0F206D992668}|UserService.Repository\\UserService.Repository.csproj|c:\\users\\user\\desktop\\microservice\\user_service\\userservice.repository\\repositories\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA46A121-9257-4D5D-B99F-0F206D992668}|UserService.Repository\\UserService.Repository.csproj|solutionrelative:userservice.repository\\repositories\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA46A121-9257-4D5D-B99F-0F206D992668}|UserService.Repository\\UserService.Repository.csproj|c:\\users\\user\\desktop\\microservice\\user_service\\userservice.repository\\interfaces\\iproductorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA46A121-9257-4D5D-B99F-0F206D992668}|UserService.Repository\\UserService.Repository.csproj|solutionrelative:userservice.repository\\interfaces\\iproductorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FC3278F0-09EA-4BB6-8319-62EE939E0EE6}|UserService.Api\\UserService.Api.csproj|c:\\users\\user\\desktop\\microservice\\user_service\\userservice.api\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC3278F0-09EA-4BB6-8319-62EE939E0EE6}|UserService.Api\\UserService.Api.csproj|solutionrelative:userservice.api\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA46A121-9257-4D5D-B99F-0F206D992668}|UserService.Repository\\UserService.Repository.csproj|c:\\users\\user\\desktop\\microservice\\user_service\\userservice.repository\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA46A121-9257-4D5D-B99F-0F206D992668}|UserService.Repository\\UserService.Repository.csproj|solutionrelative:userservice.repository\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FC3278F0-09EA-4BB6-8319-62EE939E0EE6}|UserService.Api\\UserService.Api.csproj|c:\\users\\user\\desktop\\microservice\\user_service\\userservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC3278F0-09EA-4BB6-8319-62EE939E0EE6}|UserService.Api\\UserService.Api.csproj|solutionrelative:userservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC3278F0-09EA-4BB6-8319-62EE939E0EE6}|UserService.Api\\UserService.Api.csproj|c:\\users\\user\\desktop\\microservice\\user_service\\userservice.api\\applicationserviceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC3278F0-09EA-4BB6-8319-62EE939E0EE6}|UserService.Api\\UserService.Api.csproj|solutionrelative:userservice.api\\applicationserviceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,88 +22,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Microservice\\User_Service\\UserService.Repository\\Repositories\\ProductoRepository.cs",
-              "RelativeDocumentMoniker": "UserService.Repository\\Repositories\\ProductoRepository.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Microservice\\User_Service\\UserService.Repository\\Repositories\\ProductoRepository.cs",
-              "RelativeToolTip": "UserService.Repository\\Repositories\\ProductoRepository.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAowA4AAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T18:50:43.695Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ProductoService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Microservice\\User_Service\\UserService.Services\\Services\\ProductoService.cs",
-              "RelativeDocumentMoniker": "UserService.Services\\Services\\ProductoService.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Microservice\\User_Service\\UserService.Services\\Services\\ProductoService.cs",
-              "RelativeToolTip": "UserService.Services\\Services\\ProductoService.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAkwB4AAAAAAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Microservice\\User_Service\\UserService.Api\\Program.cs",
+              "RelativeDocumentMoniker": "UserService.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Microservice\\User_Service\\UserService.Api\\Program.cs",
+              "RelativeToolTip": "UserService.Api\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T18:53:47.202Z",
+              "WhenOpened": "2024-05-24T19:44:45.211Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductosController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Microservice\\User_Service\\UserService.Api\\Controllers\\ProductosController.cs",
-              "RelativeDocumentMoniker": "UserService.Api\\Controllers\\ProductosController.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Microservice\\User_Service\\UserService.Api\\Controllers\\ProductosController.cs",
-              "RelativeToolTip": "UserService.Api\\Controllers\\ProductosController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAArAAAA",
+              "DocumentIndex": 2,
+              "Title": "ApplicationServiceExtension.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Microservice\\User_Service\\UserService.Api\\ApplicationServiceExtension.cs",
+              "RelativeDocumentMoniker": "UserService.Api\\ApplicationServiceExtension.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Microservice\\User_Service\\UserService.Api\\ApplicationServiceExtension.cs",
+              "RelativeToolTip": "UserService.Api\\ApplicationServiceExtension.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAowDYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T18:56:06.782Z",
+              "WhenOpened": "2024-05-24T19:42:14.813Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Microservice\\User_Service\\UserService.Api\\map\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "UserService.Api\\map\\MappingProfile.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Microservice\\User_Service\\UserService.Api\\map\\MappingProfile.cs*",
-              "RelativeToolTip": "UserService.Api\\map\\MappingProfile.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Title": "ProductosController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Microservice\\User_Service\\UserService.Api\\Controllers\\ProductosController.cs",
+              "RelativeDocumentMoniker": "UserService.Api\\Controllers\\ProductosController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Microservice\\User_Service\\UserService.Api\\Controllers\\ProductosController.cs",
+              "RelativeToolTip": "UserService.Api\\Controllers\\ProductosController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T18:57:23.675Z",
+              "WhenOpened": "2024-05-24T20:37:41.011Z",
               "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IProductoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Microservice\\User_Service\\UserService.Repository\\Interfaces\\IProductoRepository.cs",
-              "RelativeDocumentMoniker": "UserService.Repository\\Interfaces\\IProductoRepository.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Microservice\\User_Service\\UserService.Repository\\Interfaces\\IProductoRepository.cs",
-              "RelativeToolTip": "UserService.Repository\\Interfaces\\IProductoRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T19:29:41.917Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Microservice\\User_Service\\UserService.Repository\\Models\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "UserService.Repository\\Models\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Microservice\\User_Service\\UserService.Repository\\Models\\ApplicationDbContext.cs",
-              "RelativeToolTip": "UserService.Repository\\Models\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T19:12:28.324Z",
               "EditorCaption": ""
             }
           ]

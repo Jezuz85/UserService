@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
+using AspNetCoreRateLimit;
 using UserService.Api;
 using UserService.Repository.Models;
 
@@ -8,6 +9,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddAutoMapper(Assembly.GetEntryAssembly());
 
 builder.Services.ConfigureCors();
+
+builder.Services.ConfigureRateLimit();
+
+builder.Services.ConfigureApiVersioning();
 
 builder.Services.AddControllers();
 
@@ -22,6 +27,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+
+app.UseIpRateLimiting();
 
 using (var scope = app.Services.CreateScope())
 {

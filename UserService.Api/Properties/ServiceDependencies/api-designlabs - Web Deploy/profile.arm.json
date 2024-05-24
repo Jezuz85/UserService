@@ -21,7 +21,7 @@
     },
     "resourceName": {
       "type": "string",
-      "defaultValue": "api-designlabs",
+      "defaultValue": "api-DesignLabs",
       "metadata": {
         "description": "Name of the main resource to be created by this template."
       }
