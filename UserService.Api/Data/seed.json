@@ -1,0 +1,147 @@
+[
+  {
+    "Nombre": "Juan",
+    "Apellido": "Pérez",
+    "Email": "juan.perez@example.com",
+    "Edad": 30,
+    "Productos": [
+      {
+        "Nombre": "Laptop",
+        "Descripcion": "Laptop de alta gama para juegos",
+        "Precio": 1500.00,
+        "Stock": 10,
+        "UserId": 1
+      },
+      {
+        "Nombre": "Smartphone",
+        "Descripcion": "Último modelo con 5G",
+        "Precio": 800.00,
+        "Stock": 15,
+        "UserId": 1
+      },
+      {
+        "Nombre": "Teclado Mecánico",
+        "Descripcion": "Teclado retroiluminado para gaming",
+        "Precio": 120.00,
+        "Stock": 25,
+        "UserId": 1
+      }
+    ]
+  },
+  {
+    "Nombre": "Ana",
+    "Apellido": "López",
+    "Email": "ana.lopez@example.com",
+    "Edad": 25,
+    "Productos": [
+      {
+        "Nombre": "Tableta Gráfica",
+        "Descripcion": "Ideal para diseñadores y creativos",
+        "Precio": 300.00,
+        "Stock": 8,
+        "UserId": 2
+      },
+      {
+        "Nombre": "Monitor 4K",
+        "Descripcion": "Monitor de alta resolución para diseño gráfico",
+        "Precio": 700.00,
+        "Stock": 5,
+        "UserId": 2
+      },
+      {
+        "Nombre": "Mouse Ergonómico",
+        "Descripcion": "Mouse diseñado para prevenir lesiones de muñeca",
+        "Precio": 70.00,
+        "Stock": 20,
+        "UserId": 2
+      }
+    ]
+  },
+  {
+    "Nombre": "Carlos",
+    "Apellido": "Martínez",
+    "Email": "carlos.martinez@example.com",
+    "Edad": 28,
+    "Productos": [
+      {
+        "Nombre": "Cámara Digital",
+        "Descripcion": "Cámara profesional para fotógrafos",
+        "Precio": 1200.00,
+        "Stock": 7,
+        "UserId": 3
+      },
+      {
+        "Nombre": "Trípode",
+        "Descripcion": "Trípode robusto y ajustable",
+        "Precio": 150.00,
+        "Stock": 10,
+        "UserId": 3
+      },
+      {
+        "Nombre": "Micrófono",
+        "Descripcion": "Micrófono de condensador para estudio",
+        "Precio": 220.00,
+        "Stock": 12,
+        "UserId": 3
+      }
+    ]
+  },
+  {
+    "Nombre": "Laura",
+    "Apellido": "García",
+    "Email": "laura.garcia@example.com",
+    "Edad": 22,
+    "Productos": [
+      {
+        "Nombre": "Auriculares",
+        "Descripcion": "Auriculares con cancelación de ruido",
+        "Precio": 150.00,
+        "Stock": 30,
+        "UserId": 4
+      },
+      {
+        "Nombre": "Altavoces",
+        "Descripcion": "Altavoces bluetooth de alta fidelidad",
+        "Precio": 250.00,
+        "Stock": 15,
+        "UserId": 4
+      },
+      {
+        "Nombre": "Smartwatch",
+        "Descripcion": "Reloj inteligente con múltiples funciones de salud",
+        "Precio": 350.00,
+        "Stock": 18,
+        "UserId": 4
+      }
+    ]
+  },
+  {
+    "Nombre": "Sofía",
+    "Apellido": "Ramírez",
+    "Email": "sofia.ramirez@example.com",
+    "Edad": 32,
+    "Productos": [
+      {
+        "Nombre": "Consola de Videojuegos",
+        "Descripcion": "Consola de última generación",
+        "Precio": 500.00,
+        "Stock": 20,
+        "UserId": 5
+      },
+      {
+        "Nombre": "Juego de Realidad Virtual",
+        "Descripcion": "Juego inmersivo de realidad virtual",
+        "Precio": 60.00,
+        "Stock": 15,
+        "UserId": 5
+      },
+      {
+        "Nombre": "Cargador Portátil",
+        "Descripcion": "Cargador de alta capacidad para dispositivos móviles",
+        "Precio": 40.00,
+        "Stock": 25,
+        "UserId": 5
+      }
+    ]
+  }
+]

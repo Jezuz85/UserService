@@ -1,0 +1,55 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Microservice\\User_Service\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EA30472C-7241-4FDC-BA15-4ECF7737A02F}|UserService.Core\\UserService.Core.csproj|c:\\users\\user\\desktop\\microservice\\user_service\\userservice.core\\configuration\\usersconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA30472C-7241-4FDC-BA15-4ECF7737A02F}|UserService.Core\\UserService.Core.csproj|solutionrelative:userservice.core\\configuration\\usersconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA30472C-7241-4FDC-BA15-4ECF7737A02F}|UserService.Core\\UserService.Core.csproj|c:\\users\\user\\desktop\\microservice\\user_service\\userservice.core\\configuration\\productoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA30472C-7241-4FDC-BA15-4ECF7737A02F}|UserService.Core\\UserService.Core.csproj|solutionrelative:userservice.core\\configuration\\productoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsersConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Microservice\\User_Service\\UserService.Core\\Configuration\\UsersConfiguration.cs",
+              "RelativeDocumentMoniker": "UserService.Core\\Configuration\\UsersConfiguration.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Microservice\\User_Service\\UserService.Core\\Configuration\\UsersConfiguration.cs",
+              "RelativeToolTip": "UserService.Core\\Configuration\\UsersConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T14:42:53.826Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductoConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Microservice\\User_Service\\UserService.Core\\Configuration\\ProductoConfiguration.cs",
+              "RelativeDocumentMoniker": "UserService.Core\\Configuration\\ProductoConfiguration.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Microservice\\User_Service\\UserService.Core\\Configuration\\ProductoConfiguration.cs",
+              "RelativeToolTip": "UserService.Core\\Configuration\\ProductoConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T14:43:57.425Z",
+              "IsPinned": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
