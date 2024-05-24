@@ -10,6 +10,9 @@ namespace UserService.Api.map
         {
             CreateMap<ProductoDTO, Producto>()
                 .ForMember(dest => dest.Nombre, opt => opt.MapFrom(src => src.Nombre.ToUpper()))
+                .ReverseMap(); 
+
+            CreateMap<Producto, ProductoDTO>()
                 .ReverseMap();
         }
     }

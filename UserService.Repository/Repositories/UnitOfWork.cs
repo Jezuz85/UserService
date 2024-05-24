@@ -1,5 +1,4 @@
-﻿using AutoMapper;
-using UserService.Repository.Interfaces;
+﻿using UserService.Repository.Interfaces;
 using UserService.Repository.Models;
 
 namespace UserService.Repository.Repositories;
@@ -9,19 +8,17 @@ public class UnitOfWork : IUnitOfWork, IDisposable
     private readonly ApplicationDbContext _context;
     private IUserRepository? _userRepository;
     private IProductoRepository? _productoRepository;
-    private IMapper? _mapper;
 
-    public UnitOfWork(ApplicationDbContext context, IMapper mapper)
+    public UnitOfWork(ApplicationDbContext context)
     {
         _context = context;
-        _mapper = mapper;
     }
 
     public IProductoRepository ProductoRepository
     {
         get
         {
-            return _productoRepository ??= new ProductoRepository(_context, _mapper);
+            return _productoRepository ??= new ProductoRepository(_context);
         }
     }
 

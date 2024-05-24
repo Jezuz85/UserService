@@ -1,9 +1,8 @@
-﻿using UserService.Core.Dtos;
-using UserService.Core.Entities;
+﻿using UserService.Core.Entities;
 
 namespace UserService.Repository.Interfaces;
 
-public interface IProductoRepository : IGenericRepository<ProductoDTO>
+public interface IProductoRepository : IGenericRepository<Producto>
 {
     Task<IEnumerable<Producto>> GetByCantidadAsync(int cantidad);
 }

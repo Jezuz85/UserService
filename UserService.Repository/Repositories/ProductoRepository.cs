@@ -1,24 +1,18 @@
-﻿using AutoMapper;
-using UserService.Core.Dtos;
-using UserService.Core.Entities;
+﻿using UserService.Core.Entities;
 using UserService.Repository.Interfaces;
 using UserService.Repository.Models;
 
 namespace UserService.Repository.Repositories;
 
-public class ProductoRepository : GenericRepository<ProductoDTO>, IProductoRepository
+public class ProductoRepository : GenericRepository<Producto>, IProductoRepository
 {
-    private readonly IMapper _mapper;
-    public ProductoRepository(ApplicationDbContext context, IMapper mapper) : base(context)
+    public ProductoRepository(ApplicationDbContext context) : base(context)
     {
-        _mapper = mapper;
     }
 
-    public override void AddAsync(ProductoDTO entity)
+    public override void AddAsync(Producto entity)
     {
-        var producto = _mapper.Map<Producto>(entity);
-
-        _context.Producto.Add(producto);
+        _context.Producto.Add(entity);
         _context.SaveChanges();
     }
 
@@ -27,17 +21,14 @@ public class ProductoRepository : GenericRepository<ProductoDTO>, IProductoRepos
         return Task.FromResult<IEnumerable<Producto>>(_context.Producto.Where(x => x.Stock == cantidad));
     }
 
-    public override Task<IEnumerable<ProductoDTO>> GetAllAsync()
+    public override Task<IEnumerable<Producto>> GetAllAsync()
     {
-        throw new NotImplementedException();
+       var productos = _context.Producto.ToList(); 
+       return Task.FromResult<IEnumerable<Producto>>(productos);
+
     }
 
-    public override Task<ProductoDTO?> GetAsync(int id)
-    {
-        throw new NotImplementedException();
-    }
-
-    public void AddAsync(Producto entity)
+    public override Task<Producto?> GetAsync(int id)
     {
         throw new NotImplementedException();
     }

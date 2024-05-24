@@ -20,4 +20,11 @@ public class ProductosController : ControllerBase
     {
         _productoService.AddAsync(producto);
     }
+
+    [HttpGet]
+    public Task<IEnumerable<ProductoDTO>> Get()
+    {
+        return _productoService.GetAllAsync();
+    }
+
 }

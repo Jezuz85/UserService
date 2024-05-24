@@ -1,8 +1,6 @@
-﻿using UserService.Core.Entities;
+﻿namespace UserService.Core.Dtos;
 
-namespace UserService.Core.Dtos;
-
-public class ProductoDTO : BaseEntity
+public class ProductoDTO
 {
     public string Nombre { get; set; }
 
