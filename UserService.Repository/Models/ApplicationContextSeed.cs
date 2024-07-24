@@ -1,6 +1,6 @@
 ﻿using System.Reflection;
 using System.Text.Json;
-using UserService.Core.Entities;
+using UserService.Core.Entities; 
 
 namespace UserService.Repository.Models;
 
@@ -17,6 +17,7 @@ public class ApplicationContextSeed
             {
                 var users = await File.ReadAllTextAsync(Path.Combine(path, "seed.json"));
                 List<Users>? usersList = JsonSerializer.Deserialize<List<Users>>(users);
+
 
                 if (usersList != null)
                 {

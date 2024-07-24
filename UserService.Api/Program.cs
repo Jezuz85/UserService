@@ -14,6 +14,8 @@ builder.Services.ConfigureRateLimit();
 
 builder.Services.ConfigureApiVersioning();
 
+builder.Services.AddRetryHandler();
+
 builder.Services.AddControllers();
 
 // Add services to the container.

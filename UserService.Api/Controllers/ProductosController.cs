@@ -41,4 +41,9 @@ public class ProductosController : ControllerBase
         return _productoService.GetAllV2Async();
     }
 
+    [HttpGet("external")]
+    public Task<string> GetExternalData(string url)//https://jsonplaceholder.typicode.com/posts/1
+    {
+        return _productoService.GetExternalDataAsync(url);
+    }
 }

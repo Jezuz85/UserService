@@ -9,4 +9,5 @@ public interface IProductoService
     Task<IEnumerable<Producto>> GetByCantidadAsync(int cantidad);
     Task<IEnumerable<ProductoDTO>> GetAllAsync();
     Task<IEnumerable<ProductoDTO>> GetAllV2Async();
+    Task<string> GetExternalDataAsync(string url);
 }

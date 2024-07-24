@@ -1,5 +1,6 @@
 ﻿using Asp.Versioning;
 using AspNetCoreRateLimit;
+using UserService.Api.handler;
 using UserService.Services.Services;
 using UserService.Repository.Repositories;
 // ReSharper disable All
@@ -82,5 +83,10 @@ public static class ApplicationServiceExtension
             options.SubstituteApiVersionInUrl = true;
         });
     }
-
+     
+    public static void AddRetryHandler(this IServiceCollection services)
+    {
+        services.AddHttpClient("MyHttpClient").AddHttpMessageHandler<RetryHandler>();
+        services.AddTransient<RetryHandler>();
+    }
 }

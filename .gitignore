@@ -1,3 +1,4 @@
 # Ignorar carpetas bin y obj
 bin/
 obj/
+*.vsidx

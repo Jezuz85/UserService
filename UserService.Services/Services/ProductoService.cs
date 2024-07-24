@@ -9,11 +9,13 @@ public class ProductoService : IProductoService
 {
     private readonly IUnitOfWork _unitOfWork;
     private readonly IMapper _mapper;
+    private readonly HttpClient _httpClient;
 
-    public ProductoService(IUnitOfWork unitOfWork, IMapper mapper)
+    public ProductoService(IUnitOfWork unitOfWork, IMapper mapper, IHttpClientFactory httpClientFactory)
     {
         _unitOfWork = unitOfWork;
         _mapper = mapper;
+        _httpClient = httpClientFactory.CreateClient("MyHttpClient");
     }
 
     public void AddAsync(ProductoDTO entity)
@@ -30,6 +32,7 @@ public class ProductoService : IProductoService
     public async Task<IEnumerable<ProductoDTO>> GetAllAsync()
     {
         var result = await _unitOfWork.ProductoRepository.GetAllAsync();
+
         return _mapper.Map<IEnumerable<ProductoDTO>>(result);
     }
 
@@ -37,5 +40,12 @@ public class ProductoService : IProductoService
     {
         var result = await _unitOfWork.ProductoRepository.GetAllAsync();
         return _mapper.Map<IEnumerable<ProductoDTO>>(result.Where(x => x.Stock > 15));
+    }
+
+    public async Task<string> GetExternalDataAsync(string url)
+    {
+        var response = await _httpClient.GetAsync(url);
+        response.EnsureSuccessStatusCode();
+        return await response.Content.ReadAsStringAsync();
     }
 }
